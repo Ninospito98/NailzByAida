@@ -28,15 +28,16 @@ li{
     color: black;
     text-transform: uppercase;
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Merriweather,Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 li:hover{
-    background-color: #ffffff;
+    background-color: rgb(209, 193, 166);
+    transform: scale(1.1);
 }
 li:active{
-    background-color: #cacaca;
+    background-color: rgb(173, 160, 136);
 }
 *{
     margin: 0;
