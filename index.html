@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <title>NailzByAida</title>
+</head>
+<body>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+            <a href="#home" class="a-tags">Home</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+        <a href="#prices" class="a-tags" >Priser</a>
+        </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+            <a href="#my-work" class="a-tags">Galleri</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+            <a href="#form" class="a-tags">Kontakt</a>
+          </button>
+        </li>
+        <!-- <li class="nav-item" role="presentation">
+          <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+        </li> -->
+    </ul>
+    <main class="main-container"> 
+        <div class="welcome-text" id="home">
+            <h1>Välkommen till vår Nail Salon</h1>
+            <p>Vi erbjuder professionell nagelvård och kreativ design för alla tillfällen.</p>
+        </div>
+        <div class="page-one active">
+          <div class="main-images">
+            <img src="/images/pic1.png" alt="">
+            
+          </div>
+        </div>
+        <div class="page-two">
+          <div class="main-images">
+            <img src="/images/pic2.jpg" alt="">
+          </div>
+        </div>
+        <div class="page-three">
+          <div class="main-images">
+            <img src="/images/pic3.jpg" alt="">
+          </div>
+        </div>
+    </main>
+    
+        <section class="prices" id="prices">
+          <div class="price-box-title">
+            <h2>Pris Lista</h2>
+            <p>Vi skapar vackra naglar med noggrannhet och kärlek.  
+              Slutpris kan variera beroende på val av design, längd och dekoration.
+            </p>
+          </div>
+          
+
+          <div class="price-box">
+            <div class="price-title">
+              <h3>Nytt Sett</h3>
+            </div>
+            <div class="newset">
+              <span>Nytt enkelt sett</span>
+              <span>200kr</span>
+            </div>
+            <div class="newset">
+              <span>Nytt avancerad sett(ex. french)</span>
+              <span>250kr</span>
+            </div>
+            <div class="newset underline">
+              <span>Nytt sett med mycket design (ex. 3d)</span>
+              <span>300kr</span>
+            </div>
+          </div>
+         
+
+
+          <div class="price-box">
+            <div class="price-title">
+              <h3>Påfyllning</h3>
+            </div>
+           <div class="newset">
+            <span>Eneklt Påfyllning</span>
+            <span>150kr</span>
+          </div>
+          <div class="newset underline">
+            <span>Avancerad Påfyllning</span>
+            <span>200kr</span>
+          </div>
+          </div>
+          
+          <div class="price-box">
+            <div class="price-title">
+              <h3>Borttagning</h3>
+            </div>
+            <div class="newset">
+            <span>Borttagning</span>
+            <span>100kr</span>
+          </div>
+          <div class="newset">
+            <span>M/S (1-3 magneter)</span>
+            <span>+0kr</span>
+          </div>
+           <div class="newset">
+            <span>L (4 magneter)</span>
+            <span>+20kr</span>
+          </div>
+          <div class="newset underline">
+            <span>XL (5 magneter)</span>
+            <span>+50kr</span>
+          </div>
+          </div>          
+        </section>
+
+        <section class="my-work" id="my-work">
+          <div class="work-intro">
+            <h3>Nedan hittar du ett urval av mina arbeten.</h3>
+              <p>Ett urval av våra senaste nageldesigner.  
+             Låt dig inspireras inför ditt nästa besök.</p>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/img1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/img2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/img3.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/img4.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/img5.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/img6.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/img7.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/img8.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <section class="form-container" id="form">
+          <p class="contact-intro">
+            Vill du boka en tid eller har du några frågor?  
+            Fyll i formuläret nedan så återkommer vi till dig.
+          </p>
+
+          <form
+            action="https://formspree.io/f/xdangedb"
+            class="fs-form"
+            target="_top"
+            method="POST"
+>         
+            <div class="fs-field">
+              <label class="fs-label" for="name">Namn</label>
+              <input class="fs-input" id="name" name="name" />
+            </div>
+            <div class="fs-field">
+              <label class="fs-label" for="email">Email</label>
+              <input class="fs-input" id="email" name="email" required />
+            </div>
+            <div class="fs-field">
+              <label class="fs-label" for="message">Message</label>
+              <textarea class="fs-textarea" id="message" name="message"></textarea>
+              <p class="fs-description">Vi kommer att svara så fort som möjligt.</p>
+            </div>
+            <div class="fs-button-group">
+              <button class="fs-button" type="submit">Skicka</button>
+            </div>
+          </form>
+        </section>
+       
+    <footer class="footer">
+      <p>© 2025 All rights reserved | Developed by Ninos Pito</p>
+
+    </footer>
+
+    <script src="scripts.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    slidesPerView: 3, // default (desktop)
+
+    breakpoints: {
+      1059: {
+        slidesPerView: 3,
+      },
+      681: {
+        slidesPerView: 2,
+      },
+      0: {
+        slidesPerView: 1,
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
