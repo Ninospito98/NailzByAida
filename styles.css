@@ -60,12 +60,12 @@ body {
 .welcome-text {
     text-align: center;
     margin-top: 2rem;
-    color: #333; /* mörk text som syns mot bakgrunden */
+    color: #000000; /* mörk text som syns mot bakgrunden */
 }
 
 .welcome-text h1 {
     font-size: 2rem;
-    margin-bottom: 0.5rem;
+    text-transform: uppercase;
 }
 
 .welcome-text p {
@@ -102,7 +102,7 @@ body {
 
 .main-images {
     
-    margin: 3rem 0 5rem 0;
+    margin: 2rem 0 5rem 0;
 }
 
 .prices{
