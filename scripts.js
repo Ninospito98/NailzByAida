@@ -5,6 +5,6 @@ setInterval(() => {
   pages[current].classList.remove("active");
   current = (current + 1) % pages.length;
   pages[current].classList.add("active");
-}, 4000); // 4 seconds
+}, 3000); // 4 seconds
 
 
