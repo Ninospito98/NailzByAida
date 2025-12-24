@@ -73,24 +73,16 @@ body {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
 .page-one,
 .page-two, .page-three {
   display: none;
 }
 
-
-.page-one,
-.page-two, .page-three {
-  opacity: 0;
-    transition: opacity 0.8s ease, visibility 0.8s ease;
-}
-
 .page-one.active,
 .page-two.active, .page-three.active {
   display: block;
-  opacity: 1;
 }
-
 
 .page-one img,
 .page-two img,
